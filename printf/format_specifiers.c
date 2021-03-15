@@ -1,9 +1,13 @@
 #include "holberton.h"
 
 /**
- * print_char - Prints character
+ * print_char - Entry point
+ *
  * @list: list of arguments
- * Return: Will return the amount of characters printed.
+ *
+ * Description: Prints character to std out
+ *
+ * Return: Amount of characters printed.
  */
 
 int print_char(va_list list)
@@ -13,9 +17,13 @@ int print_char(va_list list)
 }
 
 /**
- * print_string - Prints a string
+ * print_string - Entry point
+ *
  * @list: list of arguments
- * Return: Will return the amount of characters printed.
+ *
+ * Description:  Prints a string to stdout
+ *
+ * Return: Amount of characters printed.
  */
 
 int print_string(va_list list)
@@ -32,9 +40,13 @@ int print_string(va_list list)
 }
 
 /**
- * print_percent - Prints a percent symbol
+ * print_percent - Entry point
+ *
  * @list: list of arguments
- * Return: Will return the amount of characters printed.
+ *
+ * Description: Prints the percent symbol to std out
+ *
+ * Return: Amount of characters printed.
  */
 
 int print_percent(__attribute__((unused))va_list list)
@@ -44,9 +56,13 @@ int print_percent(__attribute__((unused))va_list list)
 }
 
 /**
- * print_integer - Prints an integer
+ * print_integer - Entry Point
+ *
  * @list: list of arguments
- * Return: Will return the amount of characters printed.
+ *
+ * Description: Prints an integer
+ *
+ * Return: Amount of characters printed.
  */
 
 int print_integer(va_list list)
@@ -56,4 +72,3 @@ int print_integer(va_list list)
 	num_length = print_number(list);
 	return (num_length);
 }
-

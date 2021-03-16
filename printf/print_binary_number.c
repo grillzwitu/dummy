@@ -28,17 +28,15 @@ int print_binary_number(va_list list)
 		printed_chars += _putchar('1');
 		return (printed_chars);
 	}
-	while (num > 0)
+	for (; num > 0; index++)
 	{
 	bin[index] = '0' + (num % 2);
 	num = num / 2;
-	index++;
 	}
 	index--;
-	while (index >= 0)
+	for (; index >= 0; index--)
 	{
 	printed_chars += _putchar(bin[index]);
-	index--;
 	}
 	return (printed_chars);
 }

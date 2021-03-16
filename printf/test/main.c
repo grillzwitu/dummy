@@ -11,11 +11,13 @@ int main(void)
 {
 	int len;
 	int len2;
-
+	int bn;
 
 	len = _printf("Let's try to printf a sentence.\n");
 	len2 = printf("Let's try to printf a sentence.\n");
+	bn = _printf("%b\n", 98);
      
+	printf("%d\n", bn);
 	_printf("Length:[%d, %i]\n", len, len);
 	printf("Length:[%d, %i]\n", len2, len2);
 	_printf("Negative:[%d]\n", -9999);

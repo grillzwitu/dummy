@@ -72,3 +72,21 @@ int print_integer(va_list list)
 	num_length = print_number(list);
 	return (num_length);
 }
+
+/**
+ * print_binary - Entry Point
+ *
+ * @list: list of arguments
+ *
+ * Description: Prints the binary equivalent of an unsigned int
+ *
+ * Return: Amount of characters printed.
+ */
+
+int print_binary(va_list list)
+{
+	int num_length;
+
+	num_length = print_binary_number(list);
+	return (num_length);
+}

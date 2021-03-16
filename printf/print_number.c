@@ -1,8 +1,12 @@
 #include "holberton.h"
 
 /**
- * print_number - prints a number send to this function
+ * print_number - Entry Point
+ *
+ * Description: prints a number send to this function
+ *
  * @args: List of arguments
+ *
  * Return: The number of arguments printed
  */
 

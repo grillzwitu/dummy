@@ -59,10 +59,10 @@ Percent:[%]
 Percent:[%]
 Len:[12]
 Len:[12]
+
 .SH DESCRIPTION
 The _printf() function produces output according to a format which is further described
 below. This function write its output to the stdout, the standard output stream.
-
 .SH USAGE
 The following key characters preceeded by % symbol called specifiers are needed to use _printf.
 .RS 3

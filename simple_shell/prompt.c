@@ -24,7 +24,7 @@ int main()
 
 	printf("$: ");
 	characters = getline(&buffer,&bufsize,stdin);
-	/*printf("%u characters were read.\n", (unsigned) sizeof(characters));*/
+	printf("%u characters were read.\n", (unsigned) sizeof(characters));
 	printf("%s",buffer);
 	(void) characters;
 

@@ -1,4 +1,4 @@
-# <a href="url"><img src="https://cdn4.iconfinder.com/data/icons/icocentre-free-icons/170/f-command_256-512.png"></a> Simple_shell
+# <a href="url"><img src="https://cdn4.iconfinder.com/data/icons/icocentre-free-icons/170/f-command_256-512.png" align="middle" width="100" height="100"></a> Simple_shell
 
 
 ## Table of Contents

@@ -1,12 +1,7 @@
 # 0x18. C - Stacks, Queues - LIFO, FIFO
 
   <h3>Compilation &amp; Output</h3>
-  <ul>
-     <li>
-       <::marker></::marker>
-       The code should be compiled this way:
-     </li>
-  </ul>
+  <p>The code should be compiled this way:</p>
   <pre><code>$ gcc -Wall -Werror -Wextra -pedantic *.c -o monty</code></pre>
 
   <h4 class="task">
@@ -62,7 +57,7 @@ julien@ubuntu:~/0x18. Stack (LIFO) &amp; queue (FIFO)$
 <p><strong>The monty program</strong></p>
 
 <ul>
-<li>Usage: <code>monty file</code></li>
+<li>Usage: <code>./monty file</code></li>
 <li>where <code>file</code> is the path to the file containing Monty byte code</li>
 <li>If the user does not give any file or more than one argument to your program, print <code>USAGE: monty file</code>, followed by a new line, and exit with the status <code>EXIT_FAILURE</code></li>
 <li>If, for any reason, it&#39;s not possible to use read the file, print <code>Error: Can&#39;t open file &lt;file&gt;</code>, followed by a new line, and exit with the status <code>EXIT_FAILURE</code>
